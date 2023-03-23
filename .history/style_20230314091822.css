@@ -1,0 +1,104 @@
+body{
+    color: white;
+    font-family: 'Poppins';
+}
+header{
+    margin: 0;
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)), url("images/background.jpg");
+    background-size: cover;
+    opacity: 1;
+    background-attachment: fixed;
+    z-index: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 100px;
+}
+.address{
+    background-color: #FFAD01;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    z-index: 100;
+    
+    
+}
+.add-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+
+}
+.download{
+   align-self: flex-end;
+   margin: 0;
+}
+.download a{
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #FFAD01;
+    align-self: flex-end;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+.profil{
+    border-radius: 100%;
+    position: relative;
+    top: -100px;
+}
+i{
+    font-size: 25px;
+    font-weight: 500;
+}
+.head_2{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    
+}
+.presentation{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: black;
+}
+.espace{ 
+    background: none;
+}
+.social-reseau a{
+    display: inline-block;
+    color: white;
+    border-radius: 100%;
+    text-decoration: none;
+    background-color: gray;
+    padding: 10px;
+}
+.social-reseau{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+li{
+    list-style: none;
+}
